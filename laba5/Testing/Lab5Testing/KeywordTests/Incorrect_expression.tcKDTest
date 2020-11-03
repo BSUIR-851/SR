@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="parameters">
+			<Prp name="key" type="S" value="{3AA4F94B-DCA2-4A38-A53F-FC7C48959714}"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="testdata">
+			<Node name="children">
+				<Node name="child0">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Count"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="0"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="IgnoreRunning"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="-1"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Timeout"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Runs the &quot;MatrixOperations&quot; tested application."/>
+						<Prp name="testedapp" type="S" value="MatrixOperations"/>
+					</Node>
+					<Prp name="type" type="S" value="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}"/>
+				</Node>
+				<Node name="child1">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.gbMatrA.bClearA;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'bClearA' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child10">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA10;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="25"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="8"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (25, 8) of the 'eA10' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child11">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA10;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="5"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child12">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA11;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="22"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="8"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (22, 8) of the 'eA11' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child13">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA11;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="12"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child14">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA12;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="30"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="9"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (30, 9) of the 'eA12' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child15">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA12;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="5"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child16">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA20;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="16"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="8"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (16, 8) of the 'eA20' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child17">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA20;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="0"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child18">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA21;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="24"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="17"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (24, 17) of the 'eA21' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child19">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA21;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="65"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child2">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.gbMatrB.bClearB;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'bClearB' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child20">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA22;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="17"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="8"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (17, 8) of the 'eA22' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child21">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA22;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="1"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child22">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eExpression;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="48"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="17"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (48, 17) of the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child23">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eExpression;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="((3*A)"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child24">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.bEnter;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'bEnter' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child25">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Window(&quot;#32770&quot;, &quot;Ошибка!&quot;, 1).Window(&quot;Button&quot;, &quot;ОК&quot;, 1);"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'btn_' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child26">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.bExit;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'bExit' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child3">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.bClearRes;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'bClearRes' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child4">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA00;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="22"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="13"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (22, 13) of the 'eA00' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child5">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA00;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="8"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child6">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA01;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="13"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="11"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (13, 11) of the 'eA01' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child7">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA01;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="3"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child8">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA02;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientX"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="14"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="ClientY"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="11"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="0"/>
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Shift"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="0"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (14, 11) of the 'eA02' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child9">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.MatrixOperations.Form1.eA02;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="8"/>
+								<Prp name="name" type="S" value="Keys"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="-1"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Keys"/>
+						<Prp name="description" type="S" value="Enters '((F![ReleaseLast]3*A)' in the 'eExpression' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Prp name="childcount" type="I" value="27"/>
+			</Node>
+			<Node name="data">
+				<Node name="extenders">
+					<Node name="{800193e8-4656-48c9-a7dc-10ff396c56a4}">
+						<Node name="bitmap0">
+							<Prp name="bitmap" type="H" value="617162696E00000001000000360400007801A552CB6ED350100D121FC027B0E4078884541E49501B288EEB3AA99DA7ED38A489F36813DB492829A250A92C80A06EBAEB8215120B167C0A8B2EF8171F66A631CA834DC595C6777CED73CF9C33935692B713B292F4BC4771671EB7127729A335FF7EFD72FD0490A0F8AFE5EFAB68949EDE3862D2A37E1E6D2B8BFCF603D8461A55FDB1E4562185E25847EAA78FC2491195BE2AF9CE474BB816F17D771B15C231A6A43D426E3329F730EEFEAF53A8331BC55097FCF965EB2F3E8A2230FFA4AB63DCD9C5A0A9C02D66E0501DBCD7AD2D543D058E93855BDB94DC769FADE13BE71D583FA6088EAB689E5AC87EF5501E68B0F75230721BA8159EA046F7F079FE5D49F0CC1DF33BDF8FA0FCBEC0E1998BE6E50099AB9968662F580B6B5AAD7F111F4CAB38F8D0C0383011BE2A4BDEEBEB51DDCC44CC5D37D3A4614BFCE43AB85F4BF8F60E0E5F2AE40379F0DE911AFC3735782303EA171BE5A1467764A88E87A26515CFFEF35948F770FDACA573EE49A4AF3E8BFFDC1BD662AA1B6BFCA1A761D8CC491FFCB716DA173D04AF2B129CB72786F05776A9C7E469CCCF33C0FD634CEFD33EC6A189605A917C3429891EBFA54A6F7B5D0D7BC706CD516E0DBFEA7F5C7F3CDBEC0DF726455A16E727E6EFCE5AA87F9B48BDDC07CE87273646A48BBD615F580F9F3B67B6F02FCE2F6BB8491C345EC4F0A53DEEE9BFF6A51FE72F7F0029559B35"/>
+							<Prp name="name" type="S" value="Aliases.MatrixOperations"/>
+						</Node>
+						<Node name="bitmap1">
+							<Prp name="bitmap" type="H" value="617162696E00000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3"/>
+							<Prp name="name" type="S" value="Aliases.MatrixOperations.Form1.gbMatrB"/>
+						</Node>
+						<Node name="bitmap2">
+							<Prp name="bitmap" type="H" value="617162696E00000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3"/>
+							<Prp name="name" type="S" value="Aliases.MatrixOperations.Form1.gbMatrA"/>
+						</Node>
+						<Node name="bitmap3">
+							<Prp name="bitmap" type="H" value="617162696E002D0001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263"/>
+							<Prp name="name" type="S" value="Aliases.MatrixOperations.Window(&quot;#32770&quot;, &quot;Ошибка!&quot;, 1)"/>
+						</Node>
+						<Node name="bitmap4">
+							<Prp name="bitmap" type="H" value="617162696E00000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3"/>
+							<Prp name="name" type="S" value="Aliases.MatrixOperations.Form1"/>
+						</Node>
+					</Node>
+				</Node>
+			</Node>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="key" type="S" value="{8EB047A4-5B1A-45A0-80C0-01D5CD83F097}"/>
+			<Prp name="type" type="S" value="{79147B28-EE20-4294-B773-1D3787FBF37B}"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3"/>
+			<Prp name="key" type="S" value="{A9FC4F4D-F89C-4287-A3EE-B45D73B8D3F3}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
